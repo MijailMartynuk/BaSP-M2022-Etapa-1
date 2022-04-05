@@ -1,11 +1,176 @@
 header {
+    height: 70px;
+    margin-top: 5px;
+    margin-left: 200px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  header h2 {
+    font-size: 45px;
+    font-weight: bold;
     color: rgb(59, 73, 99);
+    float: left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  header img {
+    float: right;
+}
+
+form.btn-search {
+    position: relative;
+    width: 160px;
+    padding: 10px;
+    color: rgb(59, 73, 99);
+    background-color: white;
 }
 
 aside {
+    position: fixed;
+    padding: 10px;
+    width: 170px;
+    height: 100%;
+    top: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: rgb(220, 218, 218);
 }
 
+p.menu {
+    font-weight: bold;
+}
+
+div.side {
+    border-top: 5px;
+    border-bottom: 5px;
+}
+
+aside a {
+    border-bottom: 3px solid rgb(170, 206, 155);
+}
+
+p.c-inf {
+    font-weight: bold;
+    border-bottom: 3px solid rgb(170, 206, 155);
+}
+
+p.b-bottom {
+    font-size: 10px;
+    border-bottom: 3px solid rgb(170, 206, 155);
+}
+
+main {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+    margin-left: 200px;
+    color:rgb(59, 73, 99);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: 3px solid rgb(170, 206, 155);
+}
+
+h2.tr-app-tittle {
+    margin-left: 200px;
+    font-size: 35px;
+}
+
+p.tr-app {
+    display: inline-block;
+    margin-left: 300px;
+    margin-top: 10px;
+    width: 400px;
+    height: 250px;
+}
+
+img.tr-app-img {
+    float: right;
+}
+
+h3 {
+    margin-left: 200px;
+    border-top: 3px solid rgb(170, 206, 155);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+}
+
+section.funct {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 p.funct {
+    display: inline-block;
+    width: 18%;
     color: rgb(59, 73, 99);
+    font-weight: bold;
+    border: 1px solid rgb(59, 73, 99);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    margin-left: 300px;
+
+}
+
+section.w-use {
+    display: inline-block;
+    height: 35%;
+    margin-bottom: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+div.use div {
+    display: inline-block;
+    padding-left: 300px;
+    width: 18%;
+}
+
+section.form {
+    display: inline-block;
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 200px;
+}
+
+form.left {
+    height: 100px;
+    width: 50%;
+    margin-left: 300px;
+}
+
+div.form-l {
+    display: inline-block;
+    padding-left: 100px;
+    vertical-align: top;
+}
+
+div.history-img {
+    background-color: antiquewhite;
+    display: inline-block;
+    margin-left: 200px;
+    width: 100%;
+}
+
+section.lists div {
+    display: inline-block;
+    margin-left: 300px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 5px;
+}
+
+section.lists p {
+    font-weight: bold;
+}
+
+footer{
+    display: inline-block;
+    float: right;
+    width: 84%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    padding-top: 5px;
+    margin-bottom: 5px;
+    border-top: 3px solid rgb(170, 206, 155);
 }
