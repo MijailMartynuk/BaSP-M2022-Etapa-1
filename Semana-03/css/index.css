@@ -5,7 +5,7 @@ header {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
   header h2 {
-    font-size: 45px;
+    font-size: 25px;
     font-weight: bold;
     color: rgb(59, 73, 99);
     float: left;
@@ -95,6 +95,7 @@ h3 {
 
 section.funct {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 15px;
 }
 
 p.funct {
@@ -113,7 +114,7 @@ p.funct {
 section.w-use {
     display: inline-block;
     height: 35%;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -147,15 +148,24 @@ div.form-l {
 }
 
 div.history-img {
-    background-color: antiquewhite;
     display: inline-block;
+    width: 18%;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    margin-left: 300px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+section.lists {
+    border-top: 3px solid rgb(170, 206, 155);
     margin-left: 200px;
-    width: 100%;
 }
 
 section.lists div {
     display: inline-block;
-    margin-left: 300px;
+    margin-left: 200px;
+    margin-top: 5px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-bottom: 5px;
 }
